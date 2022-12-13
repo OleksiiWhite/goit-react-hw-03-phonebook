@@ -32,6 +32,7 @@ ContactList.propTypes = {
     })
   ),
   onRemove: PropTypes.func.isRequired,
+  children: PropTypes.object.isRequired,
 };
 
 export default ContactList;
